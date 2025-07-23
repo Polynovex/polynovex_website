@@ -8,9 +8,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold font-myriad text-brand-white mb-4">
-              Polynovex<span className="text-brand-green"> Limited</span>
-            </h3>
+            <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
+                      <img src="/logo1.png" alt="" style={{width:"100px", height:"50px"}} />
+                        {/* Polynovex<span className="text-brand-green"> Limited</span> */}
+                      </Link>
             <p className="text-gray-300 font-arial mb-6">
               A multi-sector company providing innovative solutions across paint production, 
               software development, networking, CBT platforms, and electrical installations. 
