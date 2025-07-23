@@ -23,7 +23,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
-              Polynovex<span className="text-brand-green"> Limited</span>
+            <img src="/logo.png" alt="" style={{width:"100px", height:"50px"}} />
+              {/* Polynovex<span className="text-brand-green"> Limited</span> */}
             </Link>
           </div>
 
