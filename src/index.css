@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;500;600;700&display=swap');
+
+/* Custom font fallbacks for Myriad Pro */
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('Myriad Pro'), local('MyriadPro-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base typography */
+body {
+  font-family: 'Myriad Pro', Arial, sans-serif;
+}
