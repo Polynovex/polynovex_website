@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
@@ -10,7 +10,7 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const services = [
-    { name: 'Paint Production', path: '/services/paint-production' },
+    { name: 'Paint Services', path: '/services/paint-production' },
     { name: 'Software Development', path: '/services/software-development' },
     { name: 'Computer Networking', path: '/services/computer-networking' },
     { name: 'CBT Exam Platforms', path: '/services/cbt-exam-platforms' },
@@ -24,7 +24,6 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
             <img src="/logo.png" alt="" style={{width:"100px", height:"50px"}} />
-              {/* Polynovex<span className="text-brand-green"> Limited</span> */}
             </Link>
           </div>
 

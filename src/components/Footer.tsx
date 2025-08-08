@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
@@ -10,7 +9,6 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
                       <img src="/logo1.png" alt="" style={{width:"100px", height:"50px"}} />
-                        {/* Polynovex<span className="text-brand-green"> Limited</span> */}
                       </Link>
             <p className="text-gray-300 font-arial mb-6">
               A multi-sector company providing innovative solutions across paint production, 
@@ -19,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/2348123456789"
+                href="https://wa.me/2348169881336"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-green-secondary hover:bg-brand-green p-3 rounded-full transition-colors"
@@ -60,16 +58,17 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-brand-green" />
-                <span className="text-gray-300 font-arial">+234 812 345 6789</span>
+                <span className="text-gray-300 font-arial">08134393554</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-brand-green" />
-                <span className="text-gray-300 font-arial">info@polynovex.com</span>
+                <span className="text-gray-300 font-arial">info@polynovexlimited.com</span>
+                <span className="text-gray-300 font-arial">polynovex1@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-brand-green mt-1" />
                 <span className="text-gray-300 font-arial">
-                  123 Business District<br />
+                 3 Oloabisi Street, Ojota<br />
                   Lagos, Nigeria
                 </span>
               </li>

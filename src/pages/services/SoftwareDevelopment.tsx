@@ -15,32 +15,39 @@ import {
 } from 'lucide-react';
 
 const SoftwareDevelopment = () => {
+
   const services = [
-    {
-      icon: <Globe className="h-8 w-8" />,
-      title: 'Web Applications',
-      description: 'Modern, responsive web applications built with cutting-edge technologies',
-      technologies: ['React', 'Node.js', 'TypeScript', 'Next.js']
-    },
-    {
-      icon: <Smartphone className="h-8 w-8" />,
-      title: 'Mobile Apps',
-      description: 'Native and cross-platform mobile applications for iOS and Android',
-      technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin']
-    },
-    {
-      icon: <Database className="h-8 w-8" />,
-      title: 'Backend Systems',
-      description: 'Scalable backend infrastructure and API development services',
-      technologies: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB']
-    },
-    {
-      icon: <Shield className="h-8 w-8" />,
-      title: 'Security Solutions',
-      description: 'Comprehensive security audits and secure application development',
-      technologies: ['OAuth', 'JWT', 'SSL/TLS', 'Encryption']
-    }
-  ];
+  {
+    icon: <Globe className="h-8 w-8" />,
+    title: 'Web Applications',
+    description: 'Modern, responsive web applications built with cutting-edge technologies',
+    technologies: ['React', 'Node.js', 'TypeScript', 'Next.js']
+  },
+  {
+    icon: <Smartphone className="h-8 w-8" />,
+    title: 'Mobile Apps',
+    description: 'Native and cross-platform mobile applications for iOS and Android',
+    technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin']
+  },
+  {
+    icon: <Database className="h-8 w-8" />,
+    title: 'Backend Systems',
+    description: 'Scalable backend infrastructure and API development services',
+    technologies: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB']
+  },
+  {
+    icon: <Shield className="h-8 w-8" />,
+    title: 'Security Solutions',
+    description: 'Comprehensive security audits and secure application development',
+    technologies: ['OAuth', 'JWT', 'SSL/TLS', 'Encryption']
+  },
+  {
+    icon: <ArrowRight className="h-8 w-8" />,
+    title: 'Hosting & Deployment',
+    description: 'Seamless deployment to cloud platforms and reliable hosting solutions tailored to your needs.',
+    technologies: ['AWS', 'Vercel', 'Netlify', 'Render', 'Namecheap', 'HawkHost']
+  }
+];
 
   const industries = [
     'E-commerce & Retail',

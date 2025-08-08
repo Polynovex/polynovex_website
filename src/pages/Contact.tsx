@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   const services = [
-    'Paint Production (Stalo Paint)',
+    'Paint Services (Stalo Paint)',
     'Software Development',
     'Computer Networking',
     'CBT Exam Platforms',
@@ -58,25 +58,25 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone',
-      info: '+234 812 345 6789',
-      action: 'tel:+2348123456789'
+      info: '+2348134393554',
+      action: 'tel:+2348134393554'
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      info: 'info@polynovex.com',
-      action: 'mailto:info@polynovex.com'
+      info: 'info@polynovexlimited.com',
+      action: 'mailto:polinovex1@gmail.com'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Address',
-      info: '123 Business District, Lagos, Nigeria',
+      info: '3 Oloabisi Street, Ojota Lagos, Nigeria',
       action: ''
     },
     {
       icon: <Clock className="h-6 w-6" />,
       title: 'Business Hours',
-      info: 'Mon - Fri: 8:00 AM - 6:00 PM',
+      info: 'Mon - Sat: 8:00 AM - 6:00 PM',
       action: ''
     }
   ];
@@ -259,7 +259,7 @@ const Contact = () => {
                   Contact us directly on WhatsApp for quick responses and instant communication.
                 </p>
                 <a
-                  href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I'm%20interested%20in%20your%20services"
+                  href="https://wa.me/2348169881336?text=Hello%20Polynovex,%20I'm%20interested%20in%20your%20services"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-brand-green-secondary hover:bg-brand-green text-brand-white font-arial px-6 py-3 rounded-lg font-semibold transition-colors space-x-2"
