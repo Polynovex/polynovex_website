@@ -67,8 +67,8 @@ const About = () => {
               About <span className="text-green-400">Polynovex</span>
             </h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              A forward-thinking multi-sector company established in 2025, 
-              bringing innovation and excellence across diverse industries.
+             Established in 2025, but built on over a decade of proven expertise, our forward-thinking 
+             multi-sector company brings innovation and excellence across diverse industries.
             </p>
           </div>
         </div>
