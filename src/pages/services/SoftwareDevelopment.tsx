@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Code, 
@@ -94,7 +93,7 @@ const SoftwareDevelopment = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">
-                Software <span className="text-brand-green">Development</span>
+                Software Development
               </h1>
               <p className="text-xl md:text-2xl font-arial mb-8">
                 Custom software solutions that drive your business forward. From web applications 
