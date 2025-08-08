@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Palette, 
@@ -178,7 +177,7 @@ const Home = () => {
               Get Free Consultation
             </Link>
             <a
-              href="https://wa.me/2348123456789"
+              href="https://wa.me/2348169881336"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-brand-white text-brand-white hover:bg-brand-white hover:text-brand-black font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
