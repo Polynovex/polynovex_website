@@ -109,7 +109,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/about.png"
                 alt="Professional Team at Work"
                 className="rounded-lg shadow-xl"
               />

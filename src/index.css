@@ -13,6 +13,16 @@
 }
 
 /* Base typography */
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body, html{
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  background-color: #fff !important;
   font-family: 'Myriad Pro', Arial, sans-serif;
 }

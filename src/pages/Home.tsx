@@ -67,7 +67,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-brand-black via-gray-900 to-brand-black text-brand-white py-20">
         <div className="absolute inset-0 bg-black opacity-30"></div>
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/8730121/pexels-photo-8730121.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260)'}}></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">
@@ -131,7 +131,7 @@ const Home = () => {
           {/* Services Overview Image */}
           <div className="mb-16">
             <img
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/7414021/pexels-photo-7414021.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260"
               alt="Professional Services Overview"
               className="w-full h-64 object-cover rounded-xl shadow-lg"
             />
