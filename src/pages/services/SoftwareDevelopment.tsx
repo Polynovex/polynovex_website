@@ -190,7 +190,7 @@ const SoftwareDevelopment = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/software.jpg"
                 alt="Software Development Team"
                 className="rounded-lg shadow-xl"
               />

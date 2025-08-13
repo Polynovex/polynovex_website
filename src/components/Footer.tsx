@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
-                      <img src="/logo1.png" alt="" style={{width:"100px", height:"50px"}} />
+                      <img src="/images/logo1.png" alt="" style={{width:"100px", height:"50px"}} />
                       </Link>
             <p className="text-gray-300 font-arial mb-6">
               A multi-sector company providing innovative solutions across paint production, 
@@ -62,8 +62,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-brand-green" />
-                <span className="text-gray-300 font-arial">info@polynovexlimited.com</span>
-                <span className="text-gray-300 font-arial">polynovex1@gmail.com</span>
+                <span className="text-gray-300 font-arial">info@polynovexlimited.com <br />polynovex1@gmail.com</span>
+                <span className="text-gray-300 font-arial"></span>
+               
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-brand-green mt-1" />
