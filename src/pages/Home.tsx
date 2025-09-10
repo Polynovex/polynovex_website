@@ -1,24 +1,24 @@
 import { Link } from 'react-router-dom';
 import { 
-  Palette, 
+  // Palette, 
   Code, 
   Network, 
   GraduationCap, 
-  Zap, 
+  // Zap, 
   ArrowRight,
   CheckCircle
 } from 'lucide-react';
 
 const Home = () => {
   const services = [
-    {
-      icon: <Palette className="h-12 w-12" />,
-      title: 'Paint Production',
-      subtitle: 'Stalo Paint',
-      description: 'Premium quality paints for residential, commercial, and industrial applications with superior durability and finish.',
-      link: '/services/paint-production',
-      color: 'text-blue-600'
-    },
+    // {
+    //   icon: <Palette className="h-12 w-12" />,
+    //   title: 'Paint Production',
+    //   subtitle: 'Stalo Paint',
+    //   description: 'Premium quality paints for residential, commercial, and industrial applications with superior durability and finish.',
+    //   link: '/services/paint-production',
+    //   color: 'text-blue-600'
+    // },
     {
       icon: <Code className="h-12 w-12" />,
       title: 'Software Development',
@@ -43,14 +43,14 @@ const Home = () => {
       link: '/services/cbt-exam-platforms',
       color: 'text-green-600'
     },
-    {
-      icon: <Zap className="h-12 w-12" />,
-      title: 'Electrical Installations',
-      subtitle: 'Power Solutions',
-      description: 'Professional electrical installations, maintenance, and safety inspections for residential and commercial properties.',
-      link: '/services/electrical-installations',
-      color: 'text-blue-600'
-    }
+    // {
+    //   icon: <Zap className="h-12 w-12" />,
+    //   title: 'Electrical Installations',
+    //   subtitle: 'Power Solutions',
+    //   description: 'Professional electrical installations, maintenance, and safety inspections for residential and commercial properties.',
+    //   link: '/services/electrical-installations',
+    //   color: 'text-blue-600'
+    // }
   ];
 
   const features = [
@@ -74,11 +74,12 @@ const Home = () => {
               Innovation Across
               <span className="text-brand-green"> Multiple Sectors</span>
             </h1>
-            <p className="text-xl md:text-2xl font-arial mb-8 max-w-3xl mx-auto leading-relaxed">
-              Polynovex Limited delivers excellence in paint production, software development, 
-              networking solutions, educational technology, and electrical installations. 
-              Your trusted partner for comprehensive business solutions.
-            </p>
+           <p className="text-xl md:text-2xl font-arial mb-8 max-w-3xl mx-auto leading-relaxed">
+            Polynovex Limited is an innovative IT solutions provider delivering excellence in 
+            software development, computer networking, and educational technology. 
+            We are your trusted partner for scalable, secure, and future-ready digital solutions.
+          </p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/about"
@@ -101,10 +102,11 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold font-myriad text-gray-900 mb-4">Why Choose Polynovex?</h2>
-            <p className="text-lg font-arial text-gray-600 max-w-2xl mx-auto">
-              We combine industry expertise with innovative solutions to deliver exceptional results across all our service areas.
-            </p>
+            <h2 className="text-3xl font-bold font-myriad text-gray-900 mb-4">Why Choose Polynovex IT Solutions?</h2>
+          <p className="text-lg font-arial text-gray-600 max-w-2xl mx-auto">
+            We specialize in building modern IT infrastructures and digital platforms 
+            that empower businesses, schools, and organizations to thrive in a connected world.
+          </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {features.map((feature, index) => (
@@ -121,11 +123,13 @@ const Home = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold font-myriad text-gray-900 mb-4">Our Services</h2>
-            <p className="text-lg font-arial text-gray-600 max-w-3xl mx-auto">
-              From premium paint production to cutting-edge software solutions, we provide comprehensive 
-              services across multiple industries with unmatched quality and expertise.
-            </p>
+          <h2 className="text-4xl font-bold font-myriad text-gray-900 mb-4">
+            Our IT Services
+          </h2>
+          <p className="text-lg font-arial text-gray-600 max-w-3xl mx-auto">
+            From cutting-edge software solutions to reliable networking and advanced CBT platforms, 
+            we provide comprehensive IT services that drive efficiency, scalability, and innovation.
+          </p>
           </div>
           
           {/* Services Overview Image */}
@@ -163,11 +167,12 @@ const Home = () => {
       <section className="bg-gradient-to-r from-brand-black to-brand-green-secondary text-brand-white py-16">
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold font-myriad mb-4">
-            Ready to Transform Your Business?
-          </h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-myriad mb-4">
+          Ready to Transform Your Digital Experience?
+        </h2>
           <p className="text-xl font-arial mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss how our multi-sector expertise can help you achieve your goals.
+            Contact us today to discuss how our IT expertise in software development, networking, 
+            and CBT solutions can help you achieve your goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
