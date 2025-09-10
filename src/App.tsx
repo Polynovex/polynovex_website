@@ -23,10 +23,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/paint-production" element={<PaintProduction />} />
-            <Route path="/software-development" element={<SoftwareDevelopment />} />
-            <Route path="/computer-networking" element={<ComputerNetworking />} />
-            <Route path="/cbt-exam-platforms" element={<CBTExamPlatforms />} />
-            <Route path="/electrical-installations" element={<ElectricalInstallations />} />
+            <Route path="/services/software-development" element={<SoftwareDevelopment />} />
+            <Route path="/services/computer-networking" element={<ComputerNetworking />} />
+            <Route path="/services/cbt-exam-platforms" element={<CBTExamPlatforms />} />
+            <Route path="/services/electrical-installations" element={<ElectricalInstallations />} />
           </Routes>
         </main>
         <Footer />
