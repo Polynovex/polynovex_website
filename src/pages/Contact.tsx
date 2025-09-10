@@ -46,11 +46,11 @@ const Contact = () => {
   };
 
   const services = [
-    'Paint Services (Stalo Paint)',
+    // 'Paint Services (Stalo Paint)',
     'Software Development',
     'Computer Networking',
     'CBT Exam Platforms',
-    'Electrical Installations',
+    // 'Electrical Installations',
     'General Inquiry'
   ];
 

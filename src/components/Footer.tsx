@@ -10,11 +10,12 @@ const Footer = () => {
             <Link to="/" className="text-2xl font-bold font-myriad text-brand-black">
                       <img src="/images/logo1.png" alt="" style={{width:"100px", height:"50px"}} />
                       </Link>
-            <p className="text-gray-300 font-arial mb-6">
-              A multi-sector company providing innovative solutions across paint production, 
-              software development, networking, CBT platforms, and electrical installations. 
-              Registered in 2025 with a commitment to excellence and innovation.
-            </p>
+              <p className="text-gray-300 font-arial mb-6">
+                An IT services company providing innovative solutions in software development, 
+                cloud computing, networking, and CBT platforms. Registered in 2025 with a 
+                commitment to excellence, innovation, and digital transformation.
+              </p>
+
             <div className="flex space-x-4">
               <a
                 href="https://wa.me/2348169881336"
@@ -40,11 +41,11 @@ const Footer = () => {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/gallery" className="text-gray-300 font-arial hover:text-brand-white transition-colors">
                   Gallery
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="text-gray-300 font-arial hover:text-brand-white transition-colors">
                   Contact

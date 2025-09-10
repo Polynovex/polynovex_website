@@ -10,11 +10,11 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const services = [
-    { name: 'Paint Services', path: '/services/paint-production' },
-    { name: 'Software Development', path: '/services/software-development' },
-    { name: 'Computer Networking', path: '/services/computer-networking' },
-    { name: 'CBT Exam Platforms', path: '/services/cbt-exam-platforms' },
-    { name: 'Electrical Installations', path: '/services/electrical-installations' },
+    // { name: 'Paint Services', path: '/services/paint-production' },
+    { name: 'Software Development', path: '/software-development' },
+    { name: 'Computer Networking', path: '/computer-networking' },
+    { name: 'CBT Exam Platforms', path: '/cbt-exam-platforms' },
+    // { name: 'Electrical Installations', path: '/services/electrical-installations' },
   ];
 
   return (
@@ -76,7 +76,7 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <Link
+            {/* <Link
               to="/gallery"
               className={`px-3 py-2 rounded-md text-sm font-medium font-arial transition-colors ${
                 isActive('/gallery') 
@@ -85,7 +85,7 @@ const Header = () => {
               }`}
             >
               Gallery
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className={`px-3 py-2 rounded-md text-sm font-medium font-arial transition-colors ${
@@ -138,13 +138,13 @@ const Header = () => {
                   {service.name}
                 </Link>
               ))}
-              <Link
+              {/* <Link
                 to="/gallery"
                 className="block px-3 py-2 rounded-md text-base font-medium font-arial text-gray-700 hover:text-brand-black hover:bg-gray-100 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
-              </Link>
+              </Link> */}
               <Link
                 to="/contact"
                 className="block px-3 py-2 rounded-md text-base font-medium font-arial text-gray-700 hover:text-brand-black hover:bg-gray-100 transition-colors"
