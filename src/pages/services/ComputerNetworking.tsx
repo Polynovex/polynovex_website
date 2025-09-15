@@ -170,31 +170,39 @@ const ComputerNetworking = () => {
                 </div>
               </div>
             </div>
-            
-            <div className="space-y-6">
-              <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Benefits</h3>
-                <div className="space-y-4">
-                  {benefits.map((benefit, index) => (
-                    <div key={index} className="flex items-center space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                      <span className="text-gray-600">{benefit}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              
-              <div className="relative">
-                <img
-                  src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Network Monitoring"
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>
+
+    {/* Key Benefits Card */}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col lg:flex-row items-center gap-8">
+        {/* Key Benefits Card */}
+        <div className="bg-white p-8 rounded-xl shadow-lg flex-1">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">Key Benefits</h3>
+          <div className="space-y-4">
+            {benefits.map((benefit, index) => (
+              <div key={index} className="flex items-center space-x-3">
+                <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                <span className="text-gray-600">{benefit}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Image */}
+        <div className="relative flex-1">
+          <img
+            src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Network Monitoring"
+            className="rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+  </div>
+</section>
+
 
       {/* Client Types Section */}
       <section className="py-20">
