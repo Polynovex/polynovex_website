@@ -65,7 +65,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-brand-black via-gray-900 to-brand-black text-brand-white py-20">
+      {/* <section className="relative bg-gradient-to-br from-brand-black via-gray-900 to-brand-black text-brand-white py-20">
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/8730121/pexels-photo-8730121.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260)'}}></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -96,10 +96,53 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="relative bg-gradient-to-br from-brand-black via-gray-900 to-brand-black text-brand-white min-h-screen flex items-center">
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black opacity-30"></div>
+  {/* Background image */}
+  <div
+    className="absolute inset-0 bg-cover bg-center opacity-20"
+    style={{
+      backgroundImage:
+        "url(https://images.pexels.com/photos/8730121/pexels-photo-8730121.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260)",
+    }}
+  ></div>
+
+  {/* Content */}
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">
+      Innovation Across
+      <span className="text-brand-green"> Multiple Sectors</span>
+    </h1>
+    <p className="text-xl md:text-2xl font-arial mb-8 max-w-3xl mx-auto leading-relaxed">
+      Polynovex Limited is an innovative IT solutions provider delivering
+      excellence in software development, computer networking, and educational
+      technology. We are your trusted partner for scalable, secure, and
+      future-ready digital solutions.
+    </p>
+
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Link
+        to="/about"
+        className="bg-brand-green hover:bg-brand-green-secondary text-brand-black font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+      >
+        Learn About Us
+      </Link>
+      <Link
+        to="/contact"
+        className="border-2 border-brand-white text-brand-white hover:bg-brand-white hover:text-brand-black font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
+      >
+        Get Started Today
+      </Link>
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold font-myriad text-gray-900 mb-4">Why Choose Polynovex IT Solutions?</h2>
