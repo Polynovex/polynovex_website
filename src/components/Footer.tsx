@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/2348169881336"
+                href="https://wa.me/2348134393554"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-green-secondary hover:bg-brand-green p-3 rounded-full transition-colors"

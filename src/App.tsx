@@ -10,11 +10,13 @@ import SoftwareDevelopment from './pages/services/SoftwareDevelopment';
 import ComputerNetworking from './pages/services/ComputerNetworking';
 import CBTExamPlatforms from './pages/services/CBTExamPlatforms';
 import ElectricalInstallations from './pages/services/ElectricalInstallations';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white">
+        <ScrollToTop />
         <Header />
         <main>
           <Routes>

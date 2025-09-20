@@ -70,7 +70,7 @@ const Home = () => {
   style={{
     backgroundImage: `
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-      url(https://images.pexels.com/photos/8730121/pexels-photo-8730121.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260)
+      url(/images/hero-Homepage.jpg)
     `,
   }}
 >
@@ -143,7 +143,7 @@ const Home = () => {
           {/* Services Overview Image */}
           <div className="mb-16">
             <img
-              src="https://images.pexels.com/photos/7414021/pexels-photo-7414021.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=750&w=1260"
+              src="/images/IT-image.jpeg"
               alt="Professional Services Overview"
               className="w-full h-64 object-cover rounded-xl shadow-lg"
             />
@@ -190,7 +190,7 @@ const Home = () => {
               Get Free Consultation
             </Link>
             <a
-              href="https://wa.me/2348169881336"
+              href="https://wa.me/2348134393554"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-brand-white text-brand-white hover:bg-brand-white hover:text-brand-black font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"

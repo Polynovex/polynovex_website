@@ -88,7 +88,7 @@ const SoftwareDevelopment = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-brand-green-secondary to-brand-black text-brand-white py-20">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/laptop.jpg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -118,7 +118,7 @@ const SoftwareDevelopment = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/laptop.jpg"
                 alt="Software Development"
                 className="rounded-lg shadow-2xl"
               />
@@ -263,7 +263,7 @@ const SoftwareDevelopment = () => {
             
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/laptop.jpg"
                 alt="Development Process"
                 className="rounded-lg shadow-xl"
               />
@@ -284,7 +284,7 @@ const SoftwareDevelopment = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20have%20a%20software%20development%20project"
+              href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20have%20a%20software%20development%20project"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-green-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center space-x-2"

@@ -277,24 +277,28 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20" 
-          style={{backgroundImage: 'url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200)'}} 
-        />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About <span className="text-green-400">Polynovex</span>
-            </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Established in 2025, Polynovex is an innovative IT services company 
-              delivering software solutions, networking, cloud, and educational technology 
-              to empower businesses and institutions.
-            </p>
-          </div>
-        </div>
-      </section>
+      <section
+  className="relative text-brand-white min-h-screen flex items-center bg-cover bg-center"
+  style={{
+    backgroundImage: `
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url(/images/aboutHero.jpg)
+    `,
+  }}
+>
+  {/* Content */}
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 className="text-5xl md:text-6xl font-bold mb-6">
+      About <span className="text-brand-green">Polynovex</span>
+    </h1>
+    <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
+      Established in 2025, Polynovex is an innovative IT services company 
+      delivering software solutions, networking, cloud, and educational 
+      technology to empower businesses and institutions.
+    </p>
+  </div>
+</section>
+
 
       {/* Mission & Vision */}
       <section className="py-20">

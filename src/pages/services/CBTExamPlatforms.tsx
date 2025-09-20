@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   GraduationCap, 
@@ -64,7 +63,7 @@ const CBTExamPlatforms = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-green-800 to-blue-900 text-white py-20">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/JAMB-new.jpeg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -94,7 +93,7 @@ const CBTExamPlatforms = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/JAMB-new.jpeg"
                 alt="CBT Exam Platform"
                 className="rounded-lg shadow-2xl"
               />
@@ -210,9 +209,9 @@ const CBTExamPlatforms = () => {
             
             <div className="mt-8">
               <img
-                src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                src="/images/cbt.jpg"
                 alt="Students Using CBT Platform"
-                className="w-full h-64 object-cover rounded-xl shadow-lg"
+                className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
             </div>
           </div>
@@ -300,7 +299,7 @@ const CBTExamPlatforms = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20want%20a%20CBT%20platform%20demo"
+              href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20want%20a%20CBT%20platform%20demo"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-green-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center space-x-2"

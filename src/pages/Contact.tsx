@@ -85,7 +85,7 @@ const Contact = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-brand-black to-brand-green-secondary text-brand-white py-20">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/contact-us.jpeg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">Get in Touch</h1>
@@ -259,7 +259,7 @@ const Contact = () => {
                   Contact us directly on WhatsApp for quick responses and instant communication.
                 </p>
                 <a
-                  href="https://wa.me/2348169881336?text=Hello%20Polynovex,%20I'm%20interested%20in%20your%20services"
+                  href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I'm%20interested%20in%20your%20services"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-brand-green-secondary hover:bg-brand-green text-brand-white font-arial px-6 py-3 rounded-lg font-semibold transition-colors space-x-2"

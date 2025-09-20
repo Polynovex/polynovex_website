@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Network, Shield, Server, Wifi, MonitorSpeaker, PenTool as Tools, CheckCircle, ArrowRight, MessageCircle, Clock } from 'lucide-react';
 
@@ -52,7 +51,7 @@ const ComputerNetworking = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=1200)'}}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/networkHero.jpg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -82,7 +81,7 @@ const ComputerNetworking = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/networkHero.jpg"
                 alt="Network Infrastructure"
                 className="rounded-lg shadow-2xl"
               />
@@ -130,7 +129,7 @@ const ComputerNetworking = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/networkHero.jpg"
                 alt="Network Infrastructure"
                 className="rounded-lg shadow-xl"
               />
@@ -194,7 +193,7 @@ const ComputerNetworking = () => {
         {/* Image */}
         <div className="relative flex-1">
           <img
-            src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/network1.jpeg"
             alt="Network Monitoring"
             className="rounded-lg shadow-lg"
           />
@@ -295,7 +294,7 @@ const ComputerNetworking = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20a%20network%20assessment"
+              href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20a%20network%20assessment"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center space-x-2"
