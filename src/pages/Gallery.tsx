@@ -237,7 +237,7 @@ const Gallery = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Need This Color?</h3>
                   <a
-                    href={`https://wa.me/2348123456789?text=Hello%20Polynovex,%20I'm%20interested%20in%20${selectedImage.name}%20paint`}
+                    href={`https://wa.me/2348134393554?text=Hello%20Polynovex,%20I'm%20interested%20in%20${selectedImage.name}%20paint`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
@@ -263,7 +263,7 @@ const Gallery = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20paint%20consultation"
+              href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20paint%20consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

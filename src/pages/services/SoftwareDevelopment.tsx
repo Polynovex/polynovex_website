@@ -91,7 +91,7 @@ const SoftwareDevelopment = () => {
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/laptop.jpg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className='z-10'>
               <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">
                 Software Development
               </h1>
@@ -107,7 +107,7 @@ const SoftwareDevelopment = () => {
                   Start Your Project
                 </Link>
                 <a
-                  href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20software%20development%20services"
+                  href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20software%20development%20services"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-brand-white text-brand-white hover:bg-brand-white hover:text-brand-black font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"

@@ -54,7 +54,7 @@ const ComputerNetworking = () => {
         <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{backgroundImage: 'url(/images/networkHero.jpg)'}}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className='z-10'>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
                 Computer <span className="text-green-400">Networking</span>
               </h1>
@@ -70,7 +70,7 @@ const ComputerNetworking = () => {
                   Get Network Assessment
                 </Link>
                 <a
-                  href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20networking%20services"
+                  href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20networking%20services"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"

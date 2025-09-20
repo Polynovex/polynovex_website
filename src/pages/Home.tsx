@@ -75,7 +75,7 @@ const Home = () => {
   }}
 >
   {/* Content */}
-  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <h1 className="text-5xl md:text-6xl font-bold font-myriad mb-6">
       Innovation Across
       <span className="text-brand-green"> Multiple Sectors</span>
@@ -103,6 +103,7 @@ const Home = () => {
     </div>
   </div>
 </section>
+
 
 
 

@@ -98,7 +98,7 @@ const ElectricalInstallations = () => {
                   Get Free Quote
                 </Link>
                 <a
-                  href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20electrical%20installation%20services"
+                  href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20electrical%20installation%20services"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
@@ -262,7 +262,7 @@ const ElectricalInstallations = () => {
               </div>
               
               <a
-                href="tel:+2348123456789"
+                href="tel:+2348134393554"
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-block"
               >
                 Call Emergency Line
@@ -369,7 +369,7 @@ const ElectricalInstallations = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/2348123456789?text=Hello%20Polynovex,%20I%20need%20electrical%20installation%20quote"
+              href="https://wa.me/2348134393554?text=Hello%20Polynovex,%20I%20need%20electrical%20installation%20quote"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center justify-center space-x-2"
