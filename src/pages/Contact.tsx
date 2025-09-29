@@ -1,49 +1,17 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   Phone, 
   Mail, 
   MapPin, 
   MessageCircle, 
   Clock,
-  Send
 } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    service: '',
-    message: ''
-  });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
+  const [state, handleSubmit] = useForm("mblannnl");
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: ''
-      });
-    }, 2000);
-  };
 
   const services = [
     // 'Paint Services (Stalo Paint)',
@@ -104,16 +72,16 @@ const Contact = () => {
             {/* Contact Form */}
             <div>
               <h2 className="text-3xl font-bold font-myriad text-gray-900 mb-8">Send us a Message</h2>
-              
-              {submitted && (
-                <div className="mb-6 p-4 bg-green-50 border border-brand-green-secondary rounded-lg">
-                  <p className="text-brand-green-secondary font-arial">
-                    Thank you for your message! We'll get back to you within 24 hours.
-                  </p>
-                </div>
-              )}
 
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" >
+
+                {state.succeeded && (
+                  <div className="mb-6 p-4 bg-green-50 border border-brand-green-secondary rounded-lg">
+                    <p className="text-brand-green-secondary font-arial">
+                      Thank you for your message! We'll get back to you within 24 hours.
+                    </p>
+                  </div>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium font-arial text-gray-700 mb-2">
@@ -123,12 +91,17 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="name"
-                      value={formData.name}
-                      onChange={handleChange}
+                      // value={formData.name}
+                      // onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-green-secondary focus:border-transparent transition-colors font-arial"
                       placeholder="Your full name"
                     />
+                    <ValidationError 
+                    prefix="name" 
+                    field="name"
+                    errors={state.errors}
+                      />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium font-arial text-gray-700 mb-2">
@@ -138,12 +111,17 @@ const Contact = () => {
                       type="email"
                       id="email"
                       name="email"
-                      value={formData.email}
-                      onChange={handleChange}
+                      // value={formData.email}
+                      // onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-green-secondary focus:border-transparent transition-colors font-arial"
                       placeholder="your.email@example.com"
                     />
+                    <ValidationError 
+                    prefix="Email" 
+                    field="email"
+                    errors={state.errors}
+                      />
                   </div>
                 </div>
 
@@ -156,11 +134,16 @@ const Contact = () => {
                       type="tel"
                       id="phone"
                       name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
+                      // value={formData.phone}
+                      // onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-green-secondary focus:border-transparent transition-colors font-arial"
                       placeholder="+234 xxx xxx xxxx"
                     />
+                      <ValidationError 
+                    prefix="phone" 
+                    field="phone"
+                    errors={state.errors}
+                      />
                   </div>
                   <div>
                     <label htmlFor="service" className="block text-sm font-medium font-arial text-gray-700 mb-2">
@@ -169,8 +152,8 @@ const Contact = () => {
                     <select
                       id="service"
                       name="service"
-                      value={formData.service}
-                      onChange={handleChange}
+                      // value={formData.service}
+                      // onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-green-secondary focus:border-transparent transition-colors font-arial"
                     >
                       <option value="">Select a service</option>
@@ -179,6 +162,11 @@ const Contact = () => {
                       ))}
                     </select>
                   </div>
+                  <ValidationError 
+                    prefix="service" 
+                    field="service"
+                    errors={state.errors}
+                      />
                 </div>
 
                 <div>
@@ -188,32 +176,27 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
-                    value={formData.message}
-                    onChange={handleChange}
+                    // value={formData.message}
+                    // onChange={handleChange}
                     required
                     rows={6}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-green-secondary focus:border-transparent transition-colors resize-none font-arial"
                     placeholder="Tell us about your project or requirements..."
                   />
+                   <ValidationError 
+                    prefix="message" 
+                    field="message"
+                    errors={state.errors}
+                      />
                 </div>
 
                 <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-brand-green-secondary hover:bg-brand-green disabled:bg-gray-400 text-brand-white font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center space-x-2"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-brand-white"></div>
-                      <span>Sending...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Send className="h-5 w-5" />
-                      <span>Send Message</span>
-                    </>
-                  )}
-                </button>
+                type="submit"
+                disabled={state.submitting}
+                className="w-full bg-brand-green-secondary hover:bg-brand-green disabled:bg-gray-400 text-brand-white font-arial px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center space-x-2"
+              >
+                {state.submitting ? "Sending..." : "Submit"}
+              </button>
               </form>
             </div>
 
